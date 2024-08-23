@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Futuristas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #2a09e4;
+}
+
+header {
+    background-color: #0509fa;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+main {
+    padding-top: 100px;
+}
+
+section {
+    padding: 4rem 2rem;
+}
+
+#inicio {
+    background-color: #a1c719;
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+#inicio h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#modelos .car-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car-item {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.car-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.car-item:hover {
+    transform: translateY(-10px);
+}
+
+#caracteristicas .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#testimonios .testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align:
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carros del Futuro</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#modelos">Modelos</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="modelos">
+            <h2>Modelos Destacados</h2>
+            <div class="car-grid">
+                <div class="car-item">
+                    <img src="Toyota Supra JZA80 1994.jpg" alt="Carro 1">
+                    <h3>Modelo Futurista 1</h3>
+                    <p>Innovación en cada curva.</p>
+                </div>
+                <div class="car-item">
+                    <img src="Ford Mustang Fastback 1967.jpg" alt="Carro 2">
+                    <h3>Modelo Futurista 2</h3>
+                    <p>Diseño y velocidad.</p>
+                </div>
+                <div class="car-item">
+                    <img src="Mazda RX-7 VeilSide Fortune 1997.jpg" alt="Carro 3">
+                    <h3>Modelo Futurista 3</h3>
+                    <p>Elegancia y potencia.</p>
+                </div>
+                <div class="car-item">
+                    <img src="Nissan Skyline GT-R R34 1999.jpg" alt="Carro 4">
+                    <h3>Modelo Futurista 4</h3>
+                    <p>Avances tecnológicos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="caracteristicas">
+            <h2>Características Innovadoras</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>Supra Mk IV</h3>
+                    <p>A menudo conocido por el código de chasis A80 en la comunidad de autos JDM, esta generación de Supra era más un gran turismo que un deportivo, pero sin duda podía convertirse en el legendario "auto de diez segundos" al que a menudo se hace referencia en la franquicia .</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Mustang propulsado por un GT-R</h3>
+                    <p>l auto era tan real como parecía, aullando en las curvas con el motor GT-R procedente de la destruida Mona Lisa. Símbolo de la fusión de dos mundos que hasta entonces habían permanecido en gran medida separados, el Mustang fastback ganador de la carrera culminante sigue siendo un icono de los reinos de los muscle cars y los autos JDM..</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Tokyo Drift  </h3>
+                    <p>VModificado hasta el punto de parecer un auto totalmente distinto, el kit VeilSide, combinado con una decoración sencilla pero dramática, dio lugar a un vehículo que dejó una impresión indeleble, y eso sólo cuando estaba aparcado. .</p>
+                </div>
+                <div class="feature-item">
+                    <h3>El R34 plateado y azul</h3>
+                    <p>El R34 plateado y azul, cargado con tanques nitrosos triples en lugar de un asiento para el pasajero, era inalcanzable en la época en que se estrenó 2 Fast 2 Furious, y no ha hecho más que volverse más codiciado con el paso de las décadas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de Imágenes</h2>
+            <div class="gallery-grid">
+                <img src="Toyota Supra de 1995.jpg" alt="Galería Carro 1">
+                <img src="Toyota Supra JZA80 1994.jpg" alt="Galería Carro 2">
+                <img src="Mazda RX-7 VeilSide Fortune 1997.jpg" alt="Galería Carro 3">
+                <img src="Mitsubishi Lancer Evolution VII 2002.jpg" alt="Galería Carro 4">
+                <img src="Ford Mustang Fastback 1967.jpg" alt="Galería Carro 5">
+                <img src="Dodge Charger 1968 Maximus Charger.jpg" alt="Galería Carro 6">
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Carros del Futuro. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
